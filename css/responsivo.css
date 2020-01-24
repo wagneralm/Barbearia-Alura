@@ -1,0 +1,107 @@
+@media screen and (max-width: 480px) {
+    .container, 
+    .mapa, 
+    .principal:first-child, 
+    .container-beneficios,
+    .video {
+        width: auto;
+    }
+
+    .mapa, 
+    .principal:first-child, 
+    .container-beneficios,
+    .video {
+         padding: 1em;
+    } 
+    
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        margin: 1em 0;
+    }
+
+    nav a {
+        font-size: 20.5px;
+    }
+
+    .principal {
+        padding: 2em 0;
+    }
+
+    .principal p {
+        line-height: 1.3em;
+    }
+
+    .lista-beneficios, .imagem-beneficio {
+        width: 100%;
+        margin: 0 0 1em;
+    }
+
+    /* PÁGINA PRODUTOS */
+
+    .produtos {
+        width: 90%;
+        margin: 1em auto;
+        padding: 1em;
+    }
+
+    .produtos li {
+        display: block;
+        width: 100%;
+        margin: 0 0 2em;
+        vertical-align: baseline;
+    }
+
+    .produtos li:last-child {
+        margin: 0;
+    }
+
+    /* PÁGINA PRODUTOS */
+
+    form {
+        width: auto;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .input-padrao{
+        width: 85%;
+    }
+
+    .container-select {
+        width: 70%;
+        margin: 0.5em auto;
+    } 
+    
+    fieldset {
+        margin: 1em 0 0 0;
+    }
+
+    select{
+        width: 100%;
+        padding: 1em;
+        font-size: 1em;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        text-align: center; /* para firefox */
+        text-align-last: center; /* para chrome */
+    }
+
+    .container-btn {
+        width: 70%;
+        margin: 0 auto;
+    } 
+    
+    .btn {
+        margin: 0;
+        width: 100%;
+    }
+
+    table {
+        margin: 2em auto;
+    }
+
+}

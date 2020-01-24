@@ -1,0 +1,260 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #bbbbbb;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 2px;
+}
+
+nav a:hover {
+    color: #c78c19;
+    border-color: #c78c19;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #c78c19;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos h2 {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 31px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url("../assest/bg.jpg");
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/*  CSS Pag Contato   */
+
+form {
+    width: 940px;
+    margin: 40px auto;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    width: 50%;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+select {
+    margin-top: 1em;
+    width: 30%;
+    padding: 0.5em;
+    font-size: 1em;
+    text-align: center;
+    text-align-last: center;
+    font-weight: bold;
+}
+
+.btn {
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    color: #ffffff;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1em 0 0 4em;
+}
+
+.btn:hover {
+    background: darkorange;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+table {
+    margin: 40px 0 40px;
+}
+
+thead {
+    background: #555555;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 10px 14px 4px 14px;
+    text-align: center;
+}
+
+
+/* CSS pag principal */
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+.principal:first-child {
+    width: 940px;
+}
+
+.principal:nth-child(2) {
+    text-align: center;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.principal:nth-child(3) {
+    background: #888888;
+}
+
+.titulo-principal {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    text-align: center;
+    clear: both;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 20px 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.container-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.item:first-child {
+    font-weight: bold;
+}
+
+.item::before {
+    content: "★";
+}
+
+.imagem-beneficio {
+    width: 60%;
+    opacity: 0.7;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px #000000;
+    /*box-shadow: X Y opacidade cor*/
+}
+
+section:last-child img:hover {
+    opacity: 1;
+    transition: 400ms;
+}
+
+.video {
+    width: 640px;
+    margin: 2em auto;
+}
